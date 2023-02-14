@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+}
+
+.body {
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal; 
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #EEEFF1;
+    padding-top: 71px;
+    padding-bottom: 60px;
+}
+
+.logo {
+    margin-left: 66px;
+}
+
+.menu {
+    margin-top: 51px;
+}
+
+.menu a {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 42px;
+}
+.menu a:hover {
+    color: red;
+} 
+
+
+.design {
+    background-color: #EEEFF1;
+    padding-bottom: 72px;
+
+}
+
+.design-title {
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+    padding-bottom: 36px;
+}
+.design-pic {
+    padding-bottom: 36px;
+}
+.design-text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-bottom: 70px;
+}
+.design-link {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    padding: 25px 41px;
+    background-color: #34547A;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.about {
+    padding-top: 71px;
+    padding-bottom: 69px;
+}
+
+.about h2 {
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 49px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+
+.certificate {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #34547A;
+}
+
+.certificate h2 {
+    color: red;
+}
+
+
+.help {
+    background-image: url('../img/bg-foot.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #c2dce3;
+    padding-top: 89px;
+    padding-bottom: 130px;
+}
+
+.help-text p {
+    padding-bottom: 31px;
+}
+
+
+.box{
+    width: ;
+    height: ;
+    padding: ;
+    margin: ;
+    border: ;
+}
+
+
+
+
+/* .main a {   
+    color: red;
+}
+
+.link {  
+    color: blue;
+}
+
+a {  
+    color: green;
+}
+
+
+.main {
+    color: red;
+} */
+
+
+.about-title {
+
+}
+
+.about-title span {
+
+}
+
+
+.article {
+
+}
+
+.article p {
+
+}
+
+.article h3 {
+
+}
+
+.article table {
+
+}
+
+.article thead tr {
+    
+}
+
+.article tbody tr {
+
+}

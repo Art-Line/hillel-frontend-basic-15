@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.body {
+
+}
+
+.container {
+
+}
+
+.img-responsive {
+
+}
+
+.vissualy-hidden {
+
+}
+
+a {
+    text-decoration: underline;
+    &:hover {
+        text-decoration: none;
+    }
+}

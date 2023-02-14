@@ -1,0 +1,82 @@
+
+
+ 
+
+
+
+
+.text b {                   /*0 1 1*/
+    color: red;
+}
+.section span b {          /* 0 1 2*/
+    color: green;
+}
+article .box b {            /*0 1 2*/
+    color: blue;
+}
+#sect .box .text span b {      /*1 2 2*/
+    color: aqua;
+}
+#sect b {               /*1 0 1*/
+    color: beige;*/
+}
+.article .text span b {     /*0 2 2*/
+    color: black;
+}
+.section .article .box .text span b {   /*0 4 2*/
+    color: brown;
+}
+
+
+
+.news-list {
+    color: red;
+}
+
+
+
+.about {
+    background-color: red;
+    /*background-image: url(../img/logos-1.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed; */
+
+    /* background: red url(../img/logos-1.png) no-repeat left top fixed; */
+
+
+
+    padding: 30px;
+
+
+
+    /* padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-left: 60px; */
+    /* padding: 10px 0 0 60px; */
+    /* padding: 20px 50px; */
+    /* padding: 10px 50px 100px; */
+
+
+    /* margin: 50px;
+    margin: 0 50px;
+    margin: 20px 0 100px;
+    margin: 10px 20px 0 40px;
+
+    margin-top: 20px;
+    margin-right: 49px;
+    margin-bottom: 30px;
+    margin-left: 40px; */
+
+}
+
+
+/* .box {
+    color: red;
+}
+
+
+.item {
+   color: green;
+} */

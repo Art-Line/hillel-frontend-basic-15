@@ -1,0 +1,288 @@
+/* rubik-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/rubik-v23-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/rubik-v23-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/rubik-v23-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/rubik-v23-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/rubik-v23-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/rubik-v23-latin-regular.svg#Rubik') format('svg'); /* Legacy iOS */
+  }
+  /* rubik-italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/rubik-v23-latin-italic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/rubik-v23-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/rubik-v23-latin-italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/rubik-v23-latin-italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/rubik-v23-latin-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/rubik-v23-latin-italic.svg#Rubik') format('svg'); /* Legacy iOS */
+  }
+  /* rubik-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/rubik-v23-latin-500.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/rubik-v23-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/rubik-v23-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/rubik-v23-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/rubik-v23-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/rubik-v23-latin-500.svg#Rubik') format('svg'); /* Legacy iOS */
+  }
+  /* rubik-500italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../fonts/rubik-v23-latin-500italic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/rubik-v23-latin-500italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/rubik-v23-latin-500italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/rubik-v23-latin-500italic.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/rubik-v23-latin-500italic.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/rubik-v23-latin-500italic.svg#Rubik') format('svg'); /* Legacy iOS */
+  }
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+  font-family: 'Rubik', 'Arial', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+    max-width: 1170px;
+    min-width: 767px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+	font-weight: 500;
+	font-size: 35px;
+	line-height: 50px;
+	color: #0B132A;
+}
+
+.btn {
+	font-family: inherit;
+	cursor: pointer;
+	font-weight: 700;
+	color: #F53855;
+	text-align: center;
+	border: 1px solid #F53855;
+	text-decoration: none;
+	background-color: transparent;
+	display: inline-flex;
+}
+.btn:hover {
+	color: #fff;
+	background-color: #F53855;
+}
+.btn_sm {
+	font-size: 12px;
+	line-height: 14px;
+	padding: 7px 32px;
+	border-radius: 15px;
+}
+.btn_md {
+	font-size: 14px;
+	line-height: 16px;
+	padding: 11px 45px;
+	border-radius: 20px;
+}
+.btn_lg {
+	font-size: 16px;
+	line-height: 19px;
+	padding: 12px 45px;
+	border-radius: 23px;
+}
+.btn_block {
+	display: block;
+	width: 100%;
+}
+
+
+.choose {
+	padding: 80px 0 60px;
+    background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0) 88.56%);
+}
+
+.choose__title {
+	padding-bottom: 20px;
+	text-align: center;
+}
+.choose__description {
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+	color: #4F5665;
+	max-width: 555px;
+	margin: 0 auto 60px;
+}
+
+.choose-list {
+	margin: 0 -15px;
+	display: flex;
+}
+
+.choose-list__card {
+	padding: 0 15px;
+	width: 33.333%;
+}
+
+.card {
+	background: #FFFFFF;
+	border: 2px solid #DDDDDD;
+	border-radius: 10px;
+	padding: 80px 20px 50px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.card__pic {
+
+}
+
+.card__title {
+
+}
+
+.card__list {
+
+}
+
+.card__price {
+	margin-top: auto;
+}
+
+.card__btn {
+
+}
+
+
+
+.slider {
+	position: relative;
+}
+
+.slider-box {
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+}
+.slider-box__item {
+	border: 2px solid #DDDDDD;
+	border-radius: 10px;
+	padding: 30px;
+	width: 50%;
+	margin: 0 25px;
+}
+.slider-arrow {
+	cursor: pointer;
+	width: 80px;
+	height: 80px;
+	border: 2px solid #F53838;
+	border-radius: 50%;
+	background-color: transparent;
+	background-image: url('../img/slider-arrow.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	top: 50%;
+}
+.slider-arrow_prev {
+	left: 0;
+	transform: translateY(-50%);
+}
+.slider-arrow_next {
+	right: 0;
+	transform: translateY(-50%) rotate(180deg);
+}
+
+.dots {
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	bottom: -30px;
+	left: 0;
+	right: 0;
+	list-style: none;
+	padding-left: 0;
+}
+
+.dots li {
+	padding: 0 7px;
+}
+
+.dots button {
+	cursor: pointer;
+	background-color: #DDE0E4;
+	width: 15px;
+	height: 15px;
+	border: none;
+	border-radius: 8px;
+	font-size: 0;
+	/* text-indent: 20px; */
+}
+
+.dots button.active {
+	width: 45px;
+	background: #F53838;
+}
+
+
+
+
+/* .box4 {
+	text-indent: 100px;
+} */
+
+
+
+/* 
+.paretn .elem {
+
+}
+
+
+.paretn.elem {
+
+}
+
+
+
+.box30 {
+
+}
+
+p.box30 {
+
+} */
+
+
+/* .about__inset {
+	background-color: green;
+	padding: 30px;
+	margin-bottom: -120px;
+	position: relative;
+	z-index: 1;
+}
+
+
+.footer {
+	background-color: red;
+	padding: 150px 30px 30px;
+} */

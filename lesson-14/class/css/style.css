@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    max-width: 1230px;
+    min-width: 375px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 25%;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+.menu {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background-color: green;
+    width: 30px;
+    height: 30px;
+}
+.banner {
+    display: none;
+}
+
+
+@media (max-width: 991px) {
+    .item {
+        width: 50%;
+    }
+    .item_01 {
+        background-color: red;
+    }
+}
+
+@media (max-width: 767px) {
+    .item {
+        width: 100%;
+    }
+    .menu {
+        position: static;
+    }
+    .banner {
+        display: block;
+        padding: 30px;
+        background-color: red;
+    }
+}
+
+
+/* DF 
+1400
+1200
+991
+767
+480
+*/
+
+
+.item2 {
+    padding: 20px;
+    border: 3px solid black;
+}
+
+@media (min-width:768px) {
+    .parent2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .item2 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .item2 {
+        width: 33.333%;
+    }
+}
+
+@media (min-width: 1201px) {
+    .item2 {
+        width: 25%;
+    }
+}
+
+/* MF 
+1401
+1201
+992
+768
+481
+ */
+
+
+
+
+ .banner2 {
+    background-color: red;
+    padding: 20px;
+ }
+
+ @media (min-width: 768px) and (max-width: 991px) {
+     .banner2 {
+        background-color: green;
+    }
+}
+
+
+
+
+.box3 {
+    background-color: red;
+}
+
+@media( min-width: 767px) {
+    .box3 {
+        background-color: green;
+    }
+}
+
+
+
+/* .box4 {
+    background-color: blue;
+}
+
+@media (max-width: 767px) {
+    .box4 {
+        background-color: black;
+    }
+} */

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- <form action="https://fom.in.ua/echo" method="post">
+
+        <p>
+            <label>
+                логін
+                <input type="text" name="login">
+            </label>
+        </p>
+        <p>
+            <label for="passwd">пароль</label>
+            <input type="password" name="pass" id="passwd">
+        </p>
+        <p>
+            <label>
+                email
+                <input type="email" name="email">
+            </label>
+        </p>
+        <p>
+            <label>
+                phone
+                <input type="tel" name="phone">
+            </label>
+        </p>
+        <p>
+            <label>
+                count
+                <input type="number" name="count">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                <input type="checkbox" name="adult">
+                мені є 18
+            </label>
+        </p>
+
+        <p>
+            <label>
+                <input type="checkbox" name="mn">
+                я чоловік
+            </label>
+        </p>
+
+
+        <p>
+            <label>
+                <input type="radio" name="sex" value="man"> чолові
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="radio" name="sex" value="won"> жін
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="radio" name="sex" value="ava"> ava
+            </label>
+        </p>
+
+
+        <p>
+            <label>
+                <input type="radio" name="sex2" value="won"> жін
+            </label>
+        </p>
+        <p>
+            <label>
+                <input type="radio" name="sex2" value="ava"> ava
+            </label>
+        </p>
+
+
+        <p>
+            <label>
+                виберіть місто
+                <select name="city">
+                    <option value="kiev">київ</option>
+                    <option value="lviv">львів</option>
+                    <option value="lviv2">львів2</option>
+                    <option value="lviv3">львів3</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                виберіть місто
+                <select name="city" multiple>
+                    <option value="kiev">київ</option>
+                    <option value="lviv">львів</option>
+                    <option value="lviv2">львів2</option>
+                    <option value="lviv3">львів3</option>
+                    <option value="lviv4">львів3</option>
+                    <option value="lviv5">львів3</option>
+                    <option value="lviv6">львів3</option>
+                    <option value="lviv7">львів3</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                виберіть місто
+                <select name="city">
+                    <optgroup label="ukraine">
+                        <option value="kiev">київ</option>
+                        <option value="lviv">львів</option>
+                        <option value="lviv2">львів2</option>
+                        <option value="lviv3">львів3</option>
+                        <option value="lviv3">львів3</option>
+                        <option value="lviv3">львів3</option>
+                    </optgroup>
+                    <optgroup label="poland">
+                        <option value="lviv3">львів3</option>
+                        <option value="lviv3">львів3</option>
+                        <option value="lviv3">львів3</option>
+                        <option value="lviv3">львів3</option>
+                        <option value="lviv3">львів3</option>
+                        <option value="lviv3">львів3</option>
+                    </optgroup>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                enter mess
+                <textarea name="mess"></textarea>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                load your file
+                <input type="file" name="file">
+            </label>
+        </p>
+
+        
+        
+
+
+
+
+        <button type="submit">відправити</button>
+        <input type="submit" value="відправити форму мою">
+
+        <input type="submit" value="">
+
+
+
+        <button type="reset">сброс формі</button>
+        <input type="reset" value="очистити">
+
+
+
+
+    </form> -->
+
+
+    <form action="https://fom.in.ua/echo" method="post">
+
+        <fieldset>
+            <legend>автори</legend>
+            <p>
+                <label>
+                    логін
+                    <input type="text" name="login" value="Sergey" autocomplete="off" autofocus>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="text" name="login3" placeholder="логін" disabled>
+                </label>
+            </p>
+            <p>
+                <label>
+                    логін*
+                    <input type="text" name="login2" required>
+                </label>
+            </p>
+
+        </fieldset>
+        <fieldset>
+            <legend>ваші</legend>
+            <p>
+                <label>
+                    виберіть місто
+                    <select name="city">
+                        <option value="kiev">київ</option>
+                        <option value="lviv">львів</option>
+                        <option value="lviv2" selected>львів2</option>
+                        <option value="lviv3">львів3</option>
+                    </select>
+                </label>
+            </p>
+
+
+
+            <p>
+                <label>
+                    <input type="checkbox" name="adult" checked>
+                    мені є 18
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input type="checkbox" name="mn">
+                    я чоловік
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input type="radio" name="sex" value="man"> чолові
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="sex" value="won"> жін
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="radio" name="sex" value="ava"> ava
+                </label>
+            </p>
+        </fieldset>
+
+        <input type="hidden" value="">
+        <input type="month">
+        <input type="week">
+        <input type="date">
+        <input type="time">
+        <input type="color">
+        <input type="range">
+
+
+
+        <textarea name="" id="" cols="30" rows="10">
+            lorem3
+        </textarea>
+
+        <button type="submit" disabled>відправити</button>
+        <button type="reset">qwer</button>
+    </form>
+
+
+
+
+
+
+
+</body>
+
+</html>

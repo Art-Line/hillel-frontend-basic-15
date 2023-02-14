@@ -1,0 +1,28 @@
+.about {
+    display: block;
+    margin: 0 -19px;
+    .out & {
+       display: flex; 
+    }
+    &::after {
+        content: '';
+    }
+    &__item {
+        padding: 12px;
+        &_red {
+    
+        }
+    }
+    &__title {
+        font-size: 23px;
+        &_big {
+            font-size: 300px;
+        }
+    }
+    &__link {
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

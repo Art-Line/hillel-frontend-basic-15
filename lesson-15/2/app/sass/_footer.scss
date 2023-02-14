@@ -1,0 +1,9 @@
+.footer {
+    display: flex;
+    &__item {
+        padding: 90px;
+    }
+    &_red {
+        color: red;
+    }
+}
