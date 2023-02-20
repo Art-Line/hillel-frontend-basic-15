@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.body {
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+}
+
+.header {
+    border-bottom: 1px solid #000;
+    padding: 20px 0;
+}
+
+.footer {
+    border-top: 1px solid #000;
+    background-color: yellow;
+    padding: 30px 0;
+}

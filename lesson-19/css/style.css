@@ -1,0 +1,257 @@
+:root {
+    font-size: 16px;
+}
+
+/* html {
+    font-size: 16px;
+} */
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: boxes;
+    animation-duration: 2s;
+} */
+
+
+
+
+
+@keyframes boxes {
+    /* from {
+        width: 200px;
+        background-color: red;
+    } */
+    /* to {
+        width: 250px;
+        background-color: green;
+    } */
+
+    /* 20% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: black;
+    } */
+    /* 100% {
+        background-color: blue;
+    } */
+}
+
+
+.sun {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    animation-name: sun;
+    animation-duration: 3s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+    animation-direction: alternate;
+    /* animation-direction: alternate-reverse; */
+    animation-timing-function: linear;
+    /* animation-fill-mode: forwards; */
+    animation-fill-mode: backwards;
+    animation-play-state: paused;
+}
+.sun:hover {
+    /* animation-play-state: running; */
+}
+
+.check:checked + .sun {
+    animation-play-state: running;
+}
+
+@keyframes sun {
+    0% {
+        background-color: green;
+    }
+    50% {
+        bottom: 400px;
+        left: calc(50% - 100px);
+        background-color: orange;
+        /* transform: rotate(45deg); */
+    }
+    100% {
+        bottom: 0;
+        left: calc(100% - 200px);
+        background-color: yellow;
+    }
+}
+
+
+.pin {
+    display: inline-flex;
+    animation-name: pin;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes pin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+/* 
+px
+%
+em
+rem
+vh
+vw  */
+
+
+/* .box-main {
+    width: 200px;
+    height: 100px;
+}
+
+.box-inset {
+    padding-top: 10%;
+} */
+
+
+.parent {
+    font-size: 16px;
+}
+
+.em {
+    font-size: 1.2em;
+    /*(16 * 1.2)*/
+    /* font-size: 20px; */
+    line-height: 1.2em;
+    padding-left: 1.5em;
+}
+
+/* 
+.text {
+    font-size: 24px;
+    line-height: 1.333em;
+}
+
+
+@media (max-width: 767px) {
+    .text {
+        font-size: 16px;
+    }
+} */
+
+
+
+/* root em
+rem */
+
+
+
+
+
+
+/* 
+
+.rem-parent {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.rem-inset {
+    font-size: 1.2rem;
+    padding-right: 1rem;
+} */
+
+
+
+
+
+
+/* 
+.vh {
+    font-size: 10vh;
+    padding-top: 5vh;
+    width: 50vh;
+} */
+
+
+
+
+
+/* .vw {
+    font-size: 5vw;
+} */
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+}
+
+.container {
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.screen {
+    background-image: url('../img/bg.jpg');
+    background-color: yellow;
+    height: 100vh;
+    min-height: 350px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    /* background-size: contain; */
+
+}
+
+.screen::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.screen-inset {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-height: 350px;
+}
+
+.screen-inset h1 {
+    padding-bottom: 100px;
+}
+
+.screen-inset p {
+    padding-bottom: 50px;
+}
+

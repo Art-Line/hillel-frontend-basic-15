@@ -10,7 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:ital,wght@0,100;1,100&display=swap"
         rel="stylesheet">
-
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
@@ -30,7 +30,7 @@
 
 
             <div class="choose-list">
-                <div class="choose-item">
+                <div class="choose-item animate__animated animate__fadeInLeft">
                     <article class="article">
                         <div class="article-title">Free</div>
                         <div class="article-price">
@@ -115,7 +115,7 @@
 
 
         <section class="girl">
-            <article class="girl-item">
+            <article class="girl-item wow animated animate__animated animate__fadeInRight">
                 <div class="girl-item-text">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus inventore neque vero totam
                     recusandae deserunt laudantium cum tempora, rem fugiat!
@@ -124,7 +124,7 @@
                     <img class="img-responsive" src="./img/item.png" alt="">
                 </div>
             </article>
-            <article class="girl-item">
+            <article class="girl-item wow animated animate__animated animate__fadeInLeft">
                 <div class="girl-item-text">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus inventore neque vero totam
                     recusandae deserunt laudantium cum tempora, rem fugiat!
@@ -133,7 +133,7 @@
                     <img class="img-responsive" src="./img/item.png" alt="">
                 </div>
             </article>
-            <article class="girl-item">
+            <article class="girl-item wow animated animate__animated animate__fadeInRight">
                 <div class="girl-item-text">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus inventore neque vero totam
                     recusandae deserunt laudantium cum tempora, rem fugiat!
@@ -142,7 +142,7 @@
                     <img class="img-responsive" src="./img/item.png" alt="">
                 </div>
             </article>
-            <article class="girl-item">
+            <article class="girl-item wow animated animate__animated animate__fadeInLeft">
                 <div class="girl-item-text">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus inventore neque vero totam
                     recusandae deserunt laudantium cum tempora, rem fugiat!
@@ -176,7 +176,10 @@
 
     </div>
 
-
+    <script src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 
 </html>
