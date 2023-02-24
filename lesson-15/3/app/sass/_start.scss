@@ -2,29 +2,31 @@
     box-sizing: border-box;
     margin: 0;
 }
+
 *::after,
 *::before {
     box-sizing: border-box;
 }
 
-.body {
+// .body {
 
-}
+// }
 
-.container {
+// .container {
 
-}
+// }
 
-.img-responsive {
+// .img-responsive {
 
-}
+// }
 
-.vissualy-hidden {
+// .vissualy-hidden {
 
-}
+// }
 
 a {
     text-decoration: underline;
+    
     &:hover {
         text-decoration: none;
     }

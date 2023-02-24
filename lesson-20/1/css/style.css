@@ -1,0 +1,66 @@
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+
+  white-space: nowrap;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+}
+
+
+.bg {
+    background-image: url('../img/head_mobile.jpg');
+    background-size: cover;
+    width: 768px;
+    height: 576px;
+}
+
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .bg {
+        background-image: url('../img/head_mobile-outher@2x.jpg');
+    }
+}
+
+@media (min-width: 768px) {
+    .bg {
+        background-image: url('../img/head_tablet.jpg');
+        width: 992px;
+        height: 744px;
+    }
+}
+
+@media  (min-width: 768px) and (min-resolution: 144dpi), 
+        (min-width: 768px) and (min-resolution: 1.5dppx) {
+            .bg {
+                background-image: url('../img/head_tablet@2x.jpg');
+            }
+        }
+
+
+@media (min-width: 992px) {
+    .bg {
+        background-image: url('../img/head.jpg');
+        width: 1400px;
+        height: 1050px;
+    }
+    @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+        .bg {
+            background-image: url('../img/head@2x.jpg');
+        }
+    }
+} 
